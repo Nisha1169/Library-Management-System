@@ -1,45 +1,46 @@
 # Library-Management-System
 The Library Management System is a console-based application that allows librarians to efficiently manage books, including adding, updating, searching, and deleting records. This system ensures that book availability status is always maintained, making it easier to track the library's inventory.
 
-Description
+📚 Library Management System
+📌 Objective
+Develop an application for librarians to efficiently add, update, search, and remove books while maintaining their availability status.
 
-A simple application that allows librarians to efficiently manage books by adding, updating, searching, and removing them while maintaining their availability status.
+⚙️ Features
+✔️ Add a Book → Store book details (ID, Title, Author, Genre, Availability)
+🔍 View All Books → Display the complete book catalog
+🔎 Search Book → Find books by ID or Title
+✏️ Update Book Details → Modify book details (e.g., availability, title, author)
+🗑️ Delete a Book → Remove a book from the catalog
+🚪 Exit System → Close the program
 
-Features
+🔗 Constraints
+⚡ Unique Book ID → Each book must have a unique identifier
+⚡ Valid Input → Title & Author cannot be empty
+⚡ Availability Status → Must be either Available or Checked Out
 
-Add a Book: Store book details (ID, Title, Author, Genre, Availability).
+🛠️ Tech Stack
+💻 Java → Core language for application logic
+📂 Collections Framework → Data storage & management
 
-View All Books: Display all books in the catalog.
+🚀 Setup & Run
+1️⃣ Clone the Repository
 
-Search Book: Find a book using its ID or Title.
+bash
+Copy
+Edit
+git clone <repository-url>
+cd library-management-system
+2️⃣ Compile & Run
 
-Update Book Details: Modify book information and availability.
+bash
+Copy
+Edit
+javac LibraryManagementSystem.java
+java LibraryManagementSystem
+🏆 Challenges & Improvements
+❌ Ensuring data persistence (can be improved with databases)
+❌ UI enhancement (can be upgraded with a graphical interface)
+❌ Handling large-scale book records efficiently
 
-Delete a Book: Remove a book from the system.
-
-Exit System: Close the application.
-
-Constraints
-
-Unique Book ID.
-
-Title and Author must be non-empty.
-
-Availability status should be 'Available' or 'Checked Out'.
-
-Setup & Run Instructions
-
-Clone the repository: git clone <repo_link>
-
-Navigate to the project folder: cd library-management
-
-Run the application: java Main.java
-
-Challenges & Future Improvements
-
-Enhancing UI for better user experience.
-
-Implementing database integration for persistent storage.
-
-Adding user authentication and role-based access.
+📢 Future Enhancements → Implementing database integration & GUI!
 
